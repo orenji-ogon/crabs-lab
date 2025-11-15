@@ -17,23 +17,16 @@ A Bash script that automates the installation of Docker CE on Ubuntu/Pop!_OS sys
 - Adds the current user to the `docker` group (so Docker can be run without `sudo`)
 - Runs a `hello-world` test container to verify installation
 
-Run it with:
-```bash
-chmod +x install-docker.sh
-sudo ./install-docker.sh
-
-==============================================================================
-
-# Install-Docker.txt
+# install-docker.txt
 
 A text reference file containing variations of Docker container usage. It documents the commands for opening and closing containers in different modes:
 
-    Root containers
-        Persistent: open, exit, restart, delete
-        Ephemeral: open, exit, auto-delete
+Root containers
+- Persistent: open, exit, restart, delete
+- Ephemeral: open, exit, auto-delete
 
-    User containers (example: clam)
-        Persistent: open, exit, restart, delete
-        Ephemeral: open, exit, auto-delete
+User containers (example: clam)
+- Persistent: open, exit, restart, delete
+- Ephemeral: open, exit, auto-delete
 
 This file serves as a quick cheat sheet for managing containers with different user modes and lifecycles.
