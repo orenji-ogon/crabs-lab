@@ -3,9 +3,10 @@
 This repository contains scripts and notes I use to set up and manage my personal lab server.  
 The goal is to make installation and container usage reproducible, simple, and well-documented.
 
-=====================================================================================
+=============================================================================
 
 # install-docker.sh
+
 A Bash script that automates the installation of Docker CE on Ubuntu/Pop!_OS systems.
 
 ## **What it does:**
@@ -21,9 +22,10 @@ Run it with:
 chmod +x install-docker.sh
 sudo ./install-docker.sh
 
-=====================================================================================
+==============================================================================
 
-# install-docker .txt
+# Install-Docker.txt
+
 A text reference file containing variations of Docker container usage. It documents the commands for opening and closing containers in different modes:
 
     Root containers
@@ -35,5 +37,3 @@ A text reference file containing variations of Docker container usage. It docume
         Ephemeral: open, exit, auto-delete
 
 This file serves as a quick cheat sheet for managing containers with different user modes and lifecycles.
-
-=====================================================================================
