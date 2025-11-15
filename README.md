@@ -43,4 +43,7 @@ The VM is configured as a development and database environment with remote acces
   - VSCodium for coding and project work
 - **Spice/QXL Integration**: Guest tools installed for improved VM graphics and responsiveness.
 
+# system-report.sh
 
+Generates a concise system information report. It prints OS details, uptime, CPU, RAM, disks, video card, host IP, gateway, DNS, logged-in users, disk space, process count, load averages, listening ports, and firewall status.
+On laptops, it also reports battery health by comparing the current full charge to the design capacity. On desktops or virtual machines, it will indicate that no battery is detected.
