@@ -29,4 +29,18 @@ User containers (example: clam)
 - Persistent: open, exit, restart, delete
 - Ephemeral: open, exit, auto-delete
 
-This file serves as a quick cheat sheet for managing containers with different user modes and lifecycles.
+# UbunutuLabSetUp.sh
+
+This repository documents the setup and configuration of my Ubuntu VM used for coursework and lab practice.
+The VM is configured as a development and database environment with remote access enabled.
+## Features
+- **Remote Access**: XRDP + Remmina for full desktop sessions at 1920x1080 resolution.
+- **Database**: MySQL Server installed and secured, with a dedicated coursework user.
+- **GUI Tools**: MySQL Workbench for schema design and query practice.
+- **Development Stack**:
+  - Python3 + pip for scripting
+  - Bash shell with custom aliases
+  - VSCodium for coding and project work
+- **Spice/QXL Integration**: Guest tools installed for improved VM graphics and responsiveness.
+
+

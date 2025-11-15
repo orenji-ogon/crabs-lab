@@ -1,0 +1,27 @@
+# Ubuntu VM Lab Environment
+
+This repository documents the setup and configuration of my Ubuntu VM used for coursework and lab practice.  
+The VM is configured as a development and database environment with remote access enabled.
+
+## Features
+- **Remote Access**: XRDP + Remmina for full desktop sessions at 1920x1080 resolution.
+- **Database**: MySQL Server installed and secured, with a dedicated coursework user.
+- **GUI Tools**: MySQL Workbench for schema design and query practice.
+- **Development Stack**:
+  - Python3 + pip for scripting
+  - Bash shell with custom aliases
+  - VSCodium for coding and project work
+- **Spice/QXL Integration**: Guest tools installed for improved VM graphics and responsiveness.
+
+## Usage
+- Connect to the VM via Remmina (RDP).
+- Launch MySQL Workbench inside the VM and connect to `localhost` using the coursework user.
+- Use CLI (`mysql -u <user> -p`) for SQL practice.
+- Develop scripts in Python or Bash, edit with VSCodium.
+
+## Notes
+- Root MySQL account is secured; coursework user is recommended for daily tasks.
+- Firewall rules and Unifi zone-based setup will be documented separately once rack equipment is installed.
+- This VM serves as the foundation for Python scripting, Bash scripting, MySQL labs, and coursework in Workbench.
+
+---
