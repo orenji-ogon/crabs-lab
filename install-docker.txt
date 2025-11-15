@@ -1,0 +1,33 @@
+# ============================
+#	ROOT CONTAINERS
+# ============================
+
+# Open Ubuntu container as root (persistent)
+docker run -it ubuntu bash
+# Exit with CTRL+D or 'exit'
+# Restart later:
+docker start -ai <container_name_or_id>
+# Delete when done:
+docker rm <container_name_or_id>
+
+# Open Ubuntu container as root (ephemeral, auto-deletes on exit)
+docker run -it --rm ubuntu bash
+# Exit with CTRL+D or 'exit'
+# Container is removed automatically
+
+# ============================
+#	USER CONTAINERS (example: clam)
+# ============================
+
+# Open Ubuntu container as user clam (persistent)
+docker run -it --name clam-container --user clam ubuntu bash
+# Exit with CTRL+D or 'exit'
+# Restart later:
+docker start -ai clam-container
+# Delete when done:
+docker rm clam-container
+
+# Open Ubuntu container as user clam (ephemeral, auto-deletes on exit)
+docker run -it --rm --user clam ubuntu bash
+# Exit with CTRL+D or 'exit'
+# Container is removed automatically
