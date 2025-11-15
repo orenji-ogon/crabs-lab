@@ -23,7 +23,7 @@ sudo ./install-docker.sh
 
 =====================================================================================
 
-## install-txt.sh
+## install-docker.txt
 A text reference file containing variations of Docker container usage. It documents the commands for opening and closing containers in different modes:
 
     Root containers
